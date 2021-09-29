@@ -24,7 +24,7 @@ int main() {
     try {
         userNumber = std::stoi(userString);
         if (userNumber < 0) {
-            std::cout << "You did not enter a psoitive integer." << std::endl;
+            std::cout << "You did not enter a positive integer." << std::endl;
         } else {
             do {
                 loopNumber = loopNumber + 1;
