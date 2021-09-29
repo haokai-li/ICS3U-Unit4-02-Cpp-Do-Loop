@@ -30,7 +30,7 @@ int main() {
                 loopNumber = loopNumber + 1;
                 answerNumber = answerNumber * loopNumber;
             } while (loopNumber < userNumber);
-        // output
+            // output
             std::cout << userNumber << "! = " << answerNumber << std::endl;
         }
     } catch (std::invalid_argument) {
